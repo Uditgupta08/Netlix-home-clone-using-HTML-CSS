@@ -1,0 +1,240 @@
+*
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.navbar
+{
+    display: flex;
+    height: 68px;
+    width: 100%;
+    background-color: black;
+    padding: 0px 23.5px;
+    position: fixed;
+}
+.navbar:hover
+{
+    background-color: black;
+}
+.navmain
+{
+    width: 70%;
+    height: 100%;
+    /* background-color: transparent; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left:50.83px;
+    font-size: 14px;
+}
+.logo
+{
+    height: 30px;
+    width: 92.5px;
+}
+.navcon
+{
+    margin-left: 30px;
+    font-weight: 700;
+}
+.navend
+{
+    width: 400px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.search
+{
+    height: 25px;
+    width: 200px;
+}
+.navph
+{
+    height: 25px;
+    width: 25px;
+}
+.searchtitle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 75%;
+}
+.searchbox
+{
+    height: 22px;
+    width: 250px;
+    margin-top:16px ;
+    margin-bottom: 21.5px;
+}
+#searchb{
+    border-radius: 10px;
+}
+#belll
+{
+    border-radius: 50%;
+}
+.photo
+{
+    height: 800px;
+    width: 100%;
+    background-image: url(images/extraction2.jpg);
+    background-size: cover;
+    display: inline-block;
+
+}
+.movietitle
+{
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 180px ;
+    width: 450px;
+    background-image: url(images/moviename.png);
+    background-size: cover;
+}
+.best
+{
+    font-size: 20.5px;
+    height: 32px;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-weight: 1500;
+}
+.desc
+{
+    height: 58px;
+    width: 450px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+.play
+{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    width: 120px;
+    background-color: black;
+    margin-top: 20px;
+}
+.playb
+{
+   margin-right: 10px;
+}
+.playmore
+{
+   
+    display: flex;
+}
+.more
+{
+    margin-left: 50px;
+    display: flex;
+    height: 43px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 20px;
+    background-color: #6d6d6eb3;
+}
+.info
+{
+    margin-left: 10px;
+}
+.popular
+{
+    height: 200px;
+    width: 100%;
+    display: block;
+    align-items: end;
+    margin-top: 70px;
+}
+.photos
+{
+    height: 150px;
+    width: 100% ;
+    margin-top: 5px;
+    margin-bottom:10px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.on{
+width: 100%;
+margin-bottom: 20px;
+margin-left: 50px;
+font-weight: 1000;
+font-size: 18px;
+height: 25px;
+}
+
+.actual
+{
+    height: 155px;
+    width: 285px;
+}
+.remain
+{
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.trend
+{
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+}
+.foot
+{
+    margin-top: 50px;
+    height: 220px;
+    width: 100%;
+    display: inline-block;
+}
+.faced
+{
+    height:30px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.face
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.foott
+{
+    padding-top: 20px;
+    margin-left: 30px;
+    height: 100px ;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    height: 16px;
+    list-style: none;
+    
+}
+.rows
+{
+    margin-bottom: 16px;
+    width: 245px;
+    font-weight: 800;
+}
