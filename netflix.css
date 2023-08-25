@@ -88,9 +88,16 @@
 {
     background-color: black;
 }
+/* .main{
+    background-color: black;
+} */
+.black{
+    height: 100%;
+    background-color: black;
+}
 .photo
 {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     background-image: url(images/extraction2.jpg);
     background-size: cover;
@@ -204,8 +211,8 @@ height: 25px;
 
 .actual
 {
-    height: 155px;
-    width: 285px;
+    height: 120px;
+    width: 250px;
     transition: transform 450ms;
 }
 .actual:hover{
@@ -295,7 +302,7 @@ height: 25px;
     justify-content: space-evenly;
 }
     .navbar{
-        width: 1150px;
+        width:1150px;
     }
     .navmain{
         width: 60%;
@@ -317,7 +324,7 @@ height: 25px;
         margin-top: 18px;
     }
     .popular{
-        width: 1100px;
+        width: 1150px;
         margin-left: 0px;
     }
     .actual
@@ -374,6 +381,7 @@ height: 25px;
 .trend
 {
     margin-left: 40px;
+    margin-top: 50px;
     width: 700px;
     height: 100px;
 }
@@ -449,8 +457,15 @@ height: 25px;
 .trend
 {
     margin-left: 40px;
+    margin-top: 10px;
     width: 100%;
-    height: 40px;
+    height: 90px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.on{
+    margin-bottom: 7px;
+    font-size: 10px;
 }
 .movietitle
 {
@@ -501,15 +516,6 @@ height: 25px;
 {
     margin-left: 10px;
 }
-
-.popular
-{
-    height: 75px;
-    width: 350px;
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-bottom: 50px;
-}
     .actual
 {
     height: 50px;
@@ -521,7 +527,7 @@ height: 25px;
 {
     display: flex;
     justify-content: space-evenly;
-    height: 100px;
+    height: 80px;
     width: 350px;
 }
 .sphotos
@@ -534,11 +540,13 @@ height: 25px;
         height: 100%;
         width: 700px;
     }
-    .trend
+    .trend,
+    .popular
 {
     width: 350px;
-    margin-top: 30px;
+    margin-top: 10px;
     height: 100px;
+
 }
 .rows{
     width: 150px;
@@ -559,29 +567,50 @@ height: 25px;
 }
 @media only screen and (max-width:320px)
 {
+    .movietitle
+    {
+        margin-top: 40px;
+    }
+    h4{
+        font-size: 15px;
+    }
     .navsmall{
         width: 300px;
     }
     .best{
         margin-left: 20px;
+        margin-bottom: 0px;
+        height: 20px;
+        margin-top: 5px;
     }
     .desc{
         margin-left: 20px;
         width: 250px;
+        height: 20px;
         font-size: 7px;
     }
+    .playmore{
+        width: 40px;
+        height: 10px;
+        font-size: 5px;
+    }
+    
     .popular
     {
         width: 300px;
         margin-left: 20px;
+        height: 50px;
+        margin-top: 15px;
     }
     .on{
         width: 280px;
+        height: 10px;
+        font-size: 7px;
     }
     .sphotos
     {
         display: flex;
-        height: 100px;
+        height: 50px;
     }
     .mphotos
     {
@@ -598,6 +627,7 @@ height: 25px;
     }
     .foot{
         width: 300px;
+        margin-top: 25px;
     }
     .foott{
         display: none;
@@ -626,5 +656,40 @@ height: 25px;
     .face{
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .foot{
+        height: 300px;
+    }
+    .sfoot{
+        background-color: black;
+    }
+    .more{
+        height: 15px;
+        font-size: 7px;
+    }
+    .play
+    {
+        height: 15px;
+        font-size: 7px;
+    }
+    .photo{
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .black.black-background {
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .black.black-background {
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .black.black-background {
+        background-color: black;
     }
 }
